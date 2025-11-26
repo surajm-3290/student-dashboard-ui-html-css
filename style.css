@@ -1,0 +1,104 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(199, 223, 231);
+}
+
+nav {
+    background-color: rgb(15, 15, 131);
+    color: white;
+    text-align: center;
+    font-size: medium;
+    padding: 0.5%;
+}
+
+section {
+    border: 2px solid rgb(15, 15, 131);
+    border-radius: 4px;
+    background-color: white;
+    margin: 2% 5%;
+}
+
+h3 {
+    color: rgb(15, 15, 131);
+    text-decoration: underline;
+    text-align: center;
+}
+
+#infoP {
+    color: gray;
+    padding: 0.8%;
+    font-size: small;
+}
+
+#Notice {
+    background-color: lightsteelblue;
+    border-left: 4px solid darkblue;
+    margin: 1.5%;
+    padding: 3px;
+}
+
+.table {
+    text-align: center;
+}
+
+table {
+    border: 1px solid black;
+    width: 95%;
+    margin: 2%;
+    margin-top: 0%;
+}
+
+table th {
+    background-color: rgb(147, 207, 230);
+}
+
+tr:nth-child(even) {
+    background-color: yellow;
+}
+
+tr:nth-child(odd) {
+    background-color: whitesmoke;
+}
+
+form {
+    margin: 1% 2%;
+    width: 100%;
+}
+
+input[type=text] {
+    display: block;
+    width: 93%;
+}
+
+input[type=submit] {
+    background-color: rgb(15, 15, 131);
+    color: white;
+    border-radius: 5px;
+    margin: 1% 0%;
+    padding: 0.5% 1%;
+    font-size: small;
+}
+
+label {
+    font-weight: bold;
+}
+
+footer {
+    font-size: x-small;
+    text-align: center;
+    background-color: rgb(15, 15, 131);
+    color: white;
+    padding: 0.5%;
+}
+
+tr:hover {
+    background-color: rgb(250, 40, 40);
+}
+
+select {
+    display: block;
+    width: 94%;
+    background-color: rgb(171, 219, 249);
+}
